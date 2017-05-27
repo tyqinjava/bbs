@@ -1,0 +1,148 @@
+	 *{
+			margin:0;padding: 0;
+			list-style: none;
+			outline: none;
+			font-family: "微软雅黑";
+		}
+		body{
+			background-image:url(../images/bk.jpg);
+			background-position: -100px;
+			/*  background-repeat:no-repeat;*/
+			overflow: hidden;
+		}
+		#content{
+			padding-top:30px; 
+			border:1px solid #eee;
+		    background-color:white;
+			border-radius: 3px;
+			width:457px;
+			height:250px;
+			position: absolute;
+			z-index: 99;
+		}
+		#content .form{
+			margin-left:80px;
+			/* background-color:red; */
+			width: 375px;
+		}
+		.content_item{
+			font-size:16px;
+			color:#666;
+			line-height: 32px;
+			height:32px;
+			width: 100%;
+/*			border:1px solid #aaa;*/
+		}
+		.content_input{
+			border-style: none;
+			background-color: #fafafa;
+			border:1px solid #ccc;
+			height:30px;
+			padding-left:10px;
+			width:282px;
+			float:left;
+			border-radius: 2px;
+		}
+		.msg {
+			font-size: 12px;
+			color:red;
+			width: 80px;
+			height:32px;
+/*			background: green;*/
+		    float:left;
+		}
+	     .content_button { 
+	     	border-style:none;
+			display: inline-block;
+			color:white;
+			text-decoration: none;
+			text-align: center;
+			line-height: 32px;
+			height:100%;
+			width:130px;
+			border-radius: 2px;
+			cursor: pointer;
+		}
+		.button_one {
+			background-color:#48C255;
+		}
+		.button_one:hover{
+			background-color:green;
+		}
+		.button_item {
+		    height:100%;
+		    /* background-color:green; */
+			width:295px;
+		}
+        .button_two {
+             float:right;
+			/* margin-left:34px; */
+			background-color:#60ADF5;
+		}
+		.button_two:hover{
+			background-color:#2a5caa;
+		}
+		.content_item .custom {
+	        line-height:32px;
+	        margin-left:180px;
+			color:#aaa;
+			font-size:12px;
+		}
+		#font {
+			position: absolute;
+			right:60px;
+			top:200px;;
+			/* background-color:red; */
+		}
+		#font p{
+			width:400px;
+		    color:white;
+			font-size:32px;
+		    font-family:xjl;
+			text-shadow: 1px 1px 3px #000;
+		}
+		@font-face {
+            font-family:xjl;
+            src:url(/bbs/font/xjlFont.ttf);
+         }
+		
+		#footer {
+		 text-shadow: 1px 1px 3px #000;
+		 font-size:12px;
+		 color:white;
+		 position: absolute;
+		 bottom:0px;
+		 width:100%;
+		 height:120px;
+		 /* background:red; */
+		 margin:0 auto;
+		 z-index: 2;
+		}
+		#footer a{
+		    text-decoration:none;
+			font-size:12px;
+			color:white;
+		}
+		#footer .footer_wrap p{
+			padding-top:20px;
+			clear:both;
+			text-align:center;
+		}
+		#footer ul{
+		  margin-bottom:20px;
+		}
+		#footer ul li{
+		   padding-left:10px;
+		   border-left:1px solid #fff;
+		   float:left;
+		   margin-left:20px;
+		}
+		.footer_wrap {
+		    overflow:hidden;
+	/* 	    background-color:green; */
+			width:450px;
+			margin:20px auto;
+		}
+		 #footer ul .no_border{
+		   border-left:none;
+		}

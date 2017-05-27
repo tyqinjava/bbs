@@ -1,0 +1,88 @@
+@charset "utf-8";
+	*{
+			margin: 0;
+			padding: 0;
+		}
+		#reg {
+	     	width:800px;
+			height: 500px;
+/*			border:1px solid #BCB7B7;*/
+			margin:100px auto;
+			font-family: "微软雅黑";
+			color:#555;
+		}
+		h4 {
+			line-height: 36px;
+			font-size: 18px;
+			font-weight: normal;
+			border-bottom: 1px solid #BCB7B7;
+		}
+		input {
+			height:20px;
+			font-farmily:"微软雅黑";
+		}
+		form {
+/*			border:1px solid #aaa;*/
+			width: 480px;
+			display: block;
+			margin:25px auto;
+		}
+		form div {
+			height:25px;
+		}
+		.form_label {
+			text-align:right;
+			height:25px;
+			width: 80px;
+			display: block;
+/*			background-color: red;*/
+			float:left;
+		}
+		.form_input {
+			margin-right:15px;
+			float:left;
+		}
+		form .img_div {
+		    margin-top:20px;
+			font-size:14px;
+			height: 50px;
+			padding-left:80px;
+		}
+		form .div_agree {
+			line-height: 25px;
+			font-size: 14px;
+			text-align: center;
+		}
+		form .div_agree input {
+			height:12px;
+		}
+		.div_submit {
+			height: 40px;
+		}
+		.button_submit {
+			    display: block;
+			    margin:0 auto;
+			    outline: none;
+		        background:#BF0A10; 
+			    border-radius: 2px;
+                border-style: none;
+                text-shadow: none;
+			    height:32px;
+			    width:80px;
+		}
+		.button_submit:hover {
+			cursor: pointer;
+			background: #aa050a;
+		}
+		.button_submit span{
+			color:white;
+			font-size: 14px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+		}
+		.form_hidden {
+			line-height: 25px;
+			color:red;
+			font-size:14px;
+			padding-left: 80px;
+		}
