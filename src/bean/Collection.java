@@ -4,6 +4,7 @@ public class Collection {
 	private int collection_id;
 	private int user_id;
 	private int post_id;
+	
 	private String time;
 
 	public int getCollection_id() {
